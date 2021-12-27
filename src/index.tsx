@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {App} from './App';
+import { App } from './App';
 import reportWebVitals from './reportWebVitals';
+import io from 'socket.io-client';
+io("/socket.io");
 
 ReactDOM.render(
   <React.StrictMode>
